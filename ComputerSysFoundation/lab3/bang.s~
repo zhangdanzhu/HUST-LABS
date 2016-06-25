@@ -1,0 +1,3 @@
+push	$0x7f7eec0d   
+push    $0x08048e6d 
+ret

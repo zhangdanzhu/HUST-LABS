@@ -1,0 +1,11 @@
+
+boom.o:     file format elf32-i386
+
+
+Disassembly of section .text:
+
+00000000 <.text>:
+   0:	b8 0d ec 7e 7f       	mov    $0x7f7eec0d,%eax
+   5:	bd 60 34 68 55       	mov    $0x55683460,%ebp
+   a:	ff 35 81 8e 04 08    	pushl  0x8048e81
+  10:	c3                   	ret    
