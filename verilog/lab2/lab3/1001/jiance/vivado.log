@@ -1,0 +1,607 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Jun 06 18:57:14 2016
+# Process ID: 3296
+# Log file: C:/Users/Administrator/Desktop/lab3/1001/jiance/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/lab3/1001/jiance\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.xpr
+INFO: [Project 1-313] Project file moved from 'E:/lab3/1001/jiance' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 706.313 ; gain = 152.117
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+"xvlog -m64 --relax -prj jiance_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/d_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/jiance.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sim_1/new/jiance_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 734.242 ; gain = 0.000
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 1566f8ddc6a34c44964dbeba6025ee4f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot jiance_tb_behav xil_defaultlib.jiance_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.d_ff
+Compiling module xil_defaultlib.jiance
+Compiling module xil_defaultlib.jiance_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot jiance_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 18:59:27 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 62.789 ; gain = 0.020
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 18:59:27 2016...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 734.242 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source jiance_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:42 . Memory (MB): peak = 742.234 ; gain = 7.992
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 753.574 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+"xvlog -m64 --relax -prj jiance_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/d_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/jiance.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sim_1/new/jiance_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 1566f8ddc6a34c44964dbeba6025ee4f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot jiance_tb_behav xil_defaultlib.jiance_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.d_ff
+Compiling module xil_defaultlib.jiance
+Compiling module xil_defaultlib.jiance_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot jiance_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:01:05 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 62.285 ; gain = 0.020
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:01:05 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:20 . Memory (MB): peak = 753.574 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source jiance_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 753.574 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:28 . Memory (MB): peak = 753.574 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 753.574 ; gain = 0.000
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+"xvlog -m64 --relax -prj jiance_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/d_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/jiance.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sim_1/new/jiance_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 1566f8ddc6a34c44964dbeba6025ee4f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot jiance_tb_behav xil_defaultlib.jiance_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.d_ff
+Compiling module xil_defaultlib.jiance
+Compiling module xil_defaultlib.jiance_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot jiance_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:02:38 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 63.039 ; gain = 0.020
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:02:38 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:21 . Memory (MB): peak = 753.574 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source jiance_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:24 . Memory (MB): peak = 753.574 ; gain = 0.000
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/d_ff.v" into library work [C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/d_ff.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/jiance.v" into library work [C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/jiance.v:1]
+[Mon Jun 06 19:03:20 2016] Launched synth_1...
+Run output will be captured here: C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.runs/synth_1/runme.log
+launch_simulation -mode post-synthesis -type timing
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7vx485tffg1157-1
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 1278.590 ; gain = 504.070
+INFO: [USF-XSim-29] Writing simulation netlist file for design 'synth_1'...
+INFO: [USF-XSim-90] write_verilog -mode timesim -nolib -sdf_anno true -force -file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/jiance_tb_time_synth.v"
+write_verilog: Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 1340.277 ; gain = 55.641
+INFO: [USF-XSim-30] Writing SDF file...
+INFO: [USF-XSim-91] write_sdf -mode timesim -process_corner slow -force -file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/jiance_tb_time_synth.sdf"
+write_sdf: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1752.133 ; gain = 411.855
+INFO: [USF-XSim-34] Netlist generated:C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/jiance_tb_time_synth.v
+INFO: [USF-XSim-35] SDF generated:C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/jiance_tb_time_synth.sdf
+INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing'
+"xvlog -m64 --relax -prj jiance_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/jiance_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff
+INFO: [VRFC 10-311] analyzing module d_ff_0
+INFO: [VRFC 10-311] analyzing module jiance
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sim_1/new/jiance_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/glbl.v:6]
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 1566f8ddc6a34c44964dbeba6025ee4f --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot jiance_tb_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 xil_defaultlib.jiance_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "jiance_tb_time_synth.sdf", for root module "jiance_tb/DUT".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "jiance_tb_time_synth.sdf", for root module "jiance_tb/DUT".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module simprims_ver.sffsrce_fdre
+Compiling module simprims_ver.FDRE
+Compiling module simprims_ver.x_lut3_mux4
+Compiling module simprims_ver.x_lut3_mux4_reduced_0
+Compiling module simprims_ver.LUT3
+Compiling module xil_defaultlib.d_ff
+Compiling module simprims_ver.LUT4
+Compiling module xil_defaultlib.d_ff_0
+Compiling module simprims_ver.OBUF
+Compiling module xil_defaultlib.jiance
+Compiling module xil_defaultlib.jiance_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot jiance_tb_time_synth
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/xsim.dir/jiance_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/xsim.dir/jiance_tb_time_synth/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:04:42 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 62.434 ; gain = 0.023
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:04:42 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 1752.133 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "jiance_tb_time_synth -key {Post-Synthesis:sim_1:Timing:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source jiance_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_time_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:57 ; elapsed = 00:00:52 . Memory (MB): peak = 1752.133 ; gain = 977.613
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1752.133 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/jiance_tb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/simulate.log
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+"xvlog -m64 --relax -prj jiance_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/d_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/jiance.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sim_1/new/jiance_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 1566f8ddc6a34c44964dbeba6025ee4f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot jiance_tb_behav xil_defaultlib.jiance_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.d_ff
+Compiling module xil_defaultlib.jiance
+Compiling module xil_defaultlib.jiance_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot jiance_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:06:48 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 63.000 ; gain = 0.020
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:06:48 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1752.133 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source jiance_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 1752.133 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1752.133 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/jiance_tb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/simulate.log
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+"xvlog -m64 --relax -prj jiance_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/d_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/jiance.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sim_1/new/jiance_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 1566f8ddc6a34c44964dbeba6025ee4f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot jiance_tb_behav xil_defaultlib.jiance_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.d_ff
+Compiling module xil_defaultlib.jiance
+Compiling module xil_defaultlib.jiance_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot jiance_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:10:36 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 63.359 ; gain = 0.063
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:10:36 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 1752.133 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source jiance_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 1752.133 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1754.707 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/jiance_tb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/simulate.log
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+"xvlog -m64 --relax -prj jiance_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/d_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/jiance.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sim_1/new/jiance_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 1566f8ddc6a34c44964dbeba6025ee4f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot jiance_tb_behav xil_defaultlib.jiance_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.d_ff
+Compiling module xil_defaultlib.jiance
+Compiling module xil_defaultlib.jiance_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot jiance_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:12:08 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 62.730 ; gain = 0.250
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:12:08 2016...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1754.707 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source jiance_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1754.707 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1754.707 ; gain = 0.000
+launch_simulation
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/jiance_tb_behav.wdb
+WARNING: [Vivado 12-3661] Failed to remove file:C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/simulate.log
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+"xvlog -m64 --relax -prj jiance_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/d_ff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/jiance.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sim_1/new/jiance_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 1566f8ddc6a34c44964dbeba6025ee4f --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot jiance_tb_behav xil_defaultlib.jiance_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.d_ff
+Compiling module xil_defaultlib.jiance
+Compiling module xil_defaultlib.jiance_tb
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot jiance_tb_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:20:17 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 62.480 ; gain = 0.316
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:20:17 2016...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1754.707 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+source jiance_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 250ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 250ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1754.707 ; gain = 0.000

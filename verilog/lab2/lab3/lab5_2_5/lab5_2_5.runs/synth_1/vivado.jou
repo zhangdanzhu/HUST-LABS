@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat May 28 15:21:25 2016
+# Process ID: 2784
+# Log file: C:/Users/pc/Desktop/lab3/lab5_2_5/lab5_2_5.runs/synth_1/T_ff_enable_behavior.vds
+# Journal file: C:/Users/pc/Desktop/lab3/lab5_2_5/lab5_2_5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source T_ff_enable_behavior.tcl -notrace

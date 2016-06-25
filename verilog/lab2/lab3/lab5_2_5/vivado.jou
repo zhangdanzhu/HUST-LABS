@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat May 28 14:54:31 2016
+# Process ID: 1772
+# Log file: C:/Users/pc/Desktop/lab3/lab5_2_5/vivado.log
+# Journal file: C:/Users/pc/Desktop/lab3/lab5_2_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/pc/Desktop/lab3/lab5_2_5/lab5_2_5.xpr
+launch_runs synth_1
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_simulation
+launch_simulation -mode post-synthesis -type timing
+source T_ff_enable_behavior_tb.tcl
+reset_run synth_1
+launch_runs synth_1
+wait_on_run synth_1
+close_sim
+launch_simulation -mode post-synthesis -type timing
+source T_ff_enable_behavior_tb.tcl
+launch_simulation
+source T_ff_enable_behavior_tb.tcl
+close_sim
+launch_simulation
+source T_ff_enable_behavior_tb.tcl
+close_sim
+launch_simulation -mode post-synthesis -type timing
+source T_ff_enable_behavior_tb.tcl
+close_sim
+launch_simulation -mode post-synthesis -type timing
+source T_ff_enable_behavior_tb.tcl
+close_sim
+close_sim

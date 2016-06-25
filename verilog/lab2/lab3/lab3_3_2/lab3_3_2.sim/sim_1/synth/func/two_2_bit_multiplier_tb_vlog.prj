@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "two_2_bit_multiplier_tb_func_synth.v"
+verilog xil_defaultlib  "../../../../lab3_3_2.srcs/sim_1/new/lab3_3_2_tb.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,308 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Fri Jun 10 23:11:59 2016
+# Process ID: 20212
+# Log file: C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.runs/synth_1/lab4_2.vds
+# Journal file: C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab4_2.tcl -notrace
+Command: synth_design -top lab4_2 -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-1223] The version limit for your license is '2016.05' and will expire in -10 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+WARNING: [Synth 8-2611] redeclaration of ansi port SUM1 is not allowed [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/lab4_2.v:28]
+WARNING: [Synth 8-2611] redeclaration of ansi port SUM2 is not allowed [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/lab4_2.v:28]
+WARNING: [Synth 8-2611] redeclaration of ansi port R_SUM is not allowed [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/lab4_2.v:28]
+WARNING: [Synth 8-2611] redeclaration of ansi port R_NEXT is not allowed [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/lab4_2.v:28]
+WARNING: [Synth 8-2611] redeclaration of ansi port M_SUM is not allowed [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/lab4_2.v:28]
+WARNING: [Synth 8-2611] redeclaration of ansi port M_NEXT is not allowed [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/lab4_2.v:28]
+WARNING: [Synth 8-2611] redeclaration of ansi port M_A is not allowed [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/lab4_2.v:28]
+WARNING: [Synth 8-2611] redeclaration of ansi port ROM_D is not allowed [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/lab4_2.v:28]
+WARNING: [Synth 8-2611] redeclaration of ansi port NEXT_ZERO is not allowed [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/lab4_2.v:29]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 273.598 ; gain = 96.652
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'lab4_2' [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/lab4_2.v:23]
+	Parameter WIDTH0 bound to: 16 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'Register' [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/Register.v:23]
+	Parameter WIDTH bound to: 16 - type: integer 
+WARNING: [Synth 8-567] referenced signal 'd' should be on the sensitivity list [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/Register.v:28]
+INFO: [Synth 8-256] done synthesizing module 'Register' (1#1) [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/Register.v:23]
+INFO: [Synth 8-638] synthesizing module 'adder' [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/adder.v:23]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'adder' (2#1) [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/adder.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX21' [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/MUX21.v:23]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'MUX21' (3#1) [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/MUX21.v:23]
+INFO: [Synth 8-638] synthesizing module 'comparator' [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/comparator.v:23]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'comparator' (4#1) [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/comparator.v:23]
+INFO: [Synth 8-638] synthesizing module 'rom' [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/rom.v:23]
+	Parameter WIDTH bound to: 16 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'C:\Users\pc\Desktop\lab45\lab4_2\lab4_2.srcs\sources_1\new\ROM_data.txt' is read successfully [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/rom.v:29]
+INFO: [Synth 8-256] done synthesizing module 'rom' (5#1) [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/rom.v:23]
+INFO: [Synth 8-256] done synthesizing module 'lab4_2' (6#1) [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/lab4_2.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 289.484 ; gain = 112.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 289.484 ; gain = 112.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 289.484 ; gain = 112.539
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "result" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "ROM" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'q_reg' [C:/Users/pc/Desktop/lab45/lab4_2/lab4_2.srcs/sources_1/new/Register.v:30]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 307.055 ; gain = 130.109
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 3     
+	   6 Input     16 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 1     
+Module MUX21 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module rom 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input     16 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 570.992 ; gain = 394.047
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "uc1/result" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[15] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[14] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[13] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[12] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[11] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[10] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[9] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[8] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[7] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[6] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[5] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[4] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port M_NEXT[3] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[15] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[14] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[13] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[12] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[11] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[10] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[9] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[8] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[7] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[6] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[5] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[4] driven by constant 0
+WARNING: [Synth 8-3917] design lab4_2 has port ROM_D[3] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 570.992 ; gain = 394.047
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 570.992 ; gain = 394.047
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uR_NEXT/q_reg[15] )
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[15] ) is unused and will be removed from module lab4_2.
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[14] ) is unused and will be removed from module lab4_2.
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[13] ) is unused and will be removed from module lab4_2.
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[12] ) is unused and will be removed from module lab4_2.
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[11] ) is unused and will be removed from module lab4_2.
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[10] ) is unused and will be removed from module lab4_2.
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[9] ) is unused and will be removed from module lab4_2.
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[8] ) is unused and will be removed from module lab4_2.
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[7] ) is unused and will be removed from module lab4_2.
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[6] ) is unused and will be removed from module lab4_2.
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[5] ) is unused and will be removed from module lab4_2.
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[4] ) is unused and will be removed from module lab4_2.
+WARNING: [Synth 8-3332] Sequential element (\uR_NEXT/q_reg[3] ) is unused and will be removed from module lab4_2.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 585.461 ; gain = 408.516
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 585.461 ; gain = 408.516
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 585.461 ; gain = 408.516
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 585.461 ; gain = 408.516
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 585.461 ; gain = 408.516
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 585.461 ; gain = 408.516
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 585.461 ; gain = 408.516
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 585.461 ; gain = 408.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 585.461 ; gain = 408.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 585.461 ; gain = 408.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |     5|
+|3     |LUT1   |    16|
+|4     |LUT2   |    19|
+|5     |LUT3   |     6|
+|6     |LUT4   |     4|
+|7     |LUT6   |     1|
+|8     |LDC    |    19|
+|9     |IBUF   |     5|
+|10    |OBUF   |   129|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------+-----------+------+
+|      |Instance  |Module     |Cells |
++------+----------+-----------+------+
+|1     |top       |           |   206|
+|2     |  uR_NEXT |Register   |    17|
+|3     |  uR_SUM  |Register_0 |    29|
+|4     |  uadd1   |adder      |    23|
++------+----------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 585.461 ; gain = 408.516
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 50 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 585.461 ; gain = 373.023
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 585.461 ; gain = 408.516
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 29 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 19 instances were transformed.
+  LDC => LDCE: 19 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 50 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 654.703 ; gain = 445.422
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.469 . Memory (MB): peak = 654.703 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Jun 10 23:12:21 2016...

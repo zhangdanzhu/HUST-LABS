@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/jiance_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff
+INFO: [VRFC 10-311] analyzing module d_ff_0
+INFO: [VRFC 10-311] analyzing module jiance
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sim_1/new/jiance_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jiance_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/glbl.v:6]

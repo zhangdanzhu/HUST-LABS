@@ -1,0 +1,127 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 2692
+
+Current time: 	6/13/16 9:01:10 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8
+Version: 6.2
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	D:/xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	pc
+User directory: C:/Users/pc/Desktop/lab45/lab4_1
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/pc/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/pc/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	175 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 459 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\pc\Desktop\lab45\lab4_1\lab4_1.xpr. Version: Vivado v2015.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/pc/Desktop/lab45/lab4_1/lab4_1.xpr 
+// [GUI Memory]: 27 MB (+26262kb) [00:00:05]
+// [Engine Memory]: 399 MB (+267028kb) [00:00:05]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 39 MB (+10399kb) [00:00:06]
+// [GUI Memory]: 49 MB (+8575kb) [00:00:06]
+// [Engine Memory]: 427 MB (+8420kb) [00:00:06]
+// [Engine Memory]: 450 MB (+1365kb) [00:00:07]
+// [GUI Memory]: 52 MB (+253kb) [00:00:07]
+// [GUI Memory]: 54 MB (+115kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/pc/Desktop/lab45/lab4_1/lab4_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 57 MB (+386kb) [00:00:08]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 466 MB. GUI used memory: 30 MB. Current time: 6/13/16 9:01:11 PM CST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Project name: lab4_1; location: C:/Users/pc/Desktop/lab45/lab4_1; part: xc7vx485tffg1157-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 718.496 ; gain = 145.551 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// PAPropertyPanels.initPanels (lab4_1.v) elapsed time: 0.2s
+// Elapsed time: 78 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v), uReg0 - Register (register.v)]", 2, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v), uReg0 - Register (register.v)]", 2, false); // A:k (H:JPanel, cl:JFrame)
+// [Engine Memory]: 473 MB (+786kb) [00:01:28]
+selectCodeEditor("lab4_1.v", 107, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("lab4_1.v", 107, 154); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("lab4_1.v", 196, 143); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("lab4_1.v", 113, 161); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("lab4_1.v", 114, 130); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("lab4_1.v", 105, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("lab4_1.v", 97, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("lab4_1.v", 94, 132); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("lab4_1.v", 90, 157); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v), uReg1 - Register (register.v)]", 3, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v), uReg1 - Register (register.v)]", 3, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v), uMAX2 - MUX21 (MUX21.v)]", 8, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v), uMAX2 - MUX21 (MUX21.v)]", 8, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v), uMAX2 - MUX21 (MUX21.v)]", 8, false); // A:k (H:JPanel, cl:JFrame)
+selectCodeEditor("MUX21.v", 61, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "MUX21.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 63 MB (+3265kb) [00:02:54]
+// Elapsed time: 39 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v), uadd - adder (adder.v)]", 5, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v), uadd - adder (adder.v)]", 5, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("adder.v", 61, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "adder.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 482 MB. GUI used memory: 32 MB. Current time: 6/13/16 9:04:06 PM CST
+// [GUI Memory]: 69 MB (+2939kb) [00:04:27]
+// Elapsed time: 87 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v), uACC - Register (register.v)]", 4, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v), uACC - Register (register.v)]", 4, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("register.v", 153, 205); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("register.v", 154, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("register.v", 174, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("register.v", 63, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "register.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 84 seconds
+typeControlKey((HResource) null, "register.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 627 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab4_1 (lab4_1.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("lab4_1.v", 95, 140); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("lab4_1.v", 1, 117); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "lab4_1.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 73 MB (+162kb) [00:18:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 486 MB. GUI used memory: 34 MB. Current time: 6/13/16 9:34:07 PM CST

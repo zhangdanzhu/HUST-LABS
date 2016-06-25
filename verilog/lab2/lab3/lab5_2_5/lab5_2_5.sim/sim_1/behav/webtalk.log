@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Webtalk v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Sat May 28 15:36:48 2016
+# Process ID: 2792
+# Log file: C:/Users/pc/Desktop/lab3/lab5_2_5/lab5_2_5.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/pc/Desktop/lab3/lab5_2_5/lab5_2_5.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/pc/Desktop/lab3/lab5_2_5/lab5_2_5.sim/sim_1/behav/xsim.dir/T_ff_enable_behavior_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:19 . Memory (MB): peak = 55.879 ; gain = 0.039
+
+    while executing
+"webtalk_transmit -clientid 946817132 -regid "" -xml C:/Users/pc/Desktop/lab3/lab5_2_5/lab5_2_5.sim/sim_1/behav/xsim.dir/T_ff_enable_behavior_tb_behav/..."
+    (file "C:/Users/pc/Desktop/lab3/lab5_2_5/lab5_2_5.sim/sim_1/behav/xsim.dir/T_ff_enable_behavior_tb_behav/webtalk/xsim_webtalk.tcl" line 32)
+INFO: [Common 17-206] Exiting Webtalk at Sat May 28 15:37:07 2016...

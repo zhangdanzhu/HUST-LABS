@@ -1,0 +1,4 @@
+Running: xsim.dir/jiance_tb_behav/xsimk.exe -simmode gui -wdb jiance_tb_behav.wdb -simrunnum 0 -socket 36808
+Design successfully loaded
+Design Loading Memory Usage: 19172 KB (Peak: 19172 KB)
+Design Loading CPU Usage: 124 ms

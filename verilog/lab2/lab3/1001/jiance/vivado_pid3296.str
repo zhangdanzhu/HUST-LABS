@@ -1,0 +1,1534 @@
+/*
+
+Vivado v2015.2 (64-bit)
+SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+Process ID: 3296
+
+Current time: 	6/6/16 6:57:58 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 7
+Version: 6.1
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1600x900
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=SimSun,name=ËÎÌו,style=plain,size=12
+
+Java version: 	1.8.0_25 64-bit
+Java home: 	C:/Xilinx/Vivado/2015.2/tps/win64/jre
+
+User name: 	Administrator
+User directory: C:/Users/Administrator/Desktop/lab3/1001/jiance
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+Vivado preferences path: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2015.2/vivado.ini
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2015.2/layouts/application
+
+GUI allocated memory:	156 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 384 MB
+
+*/
+
+// TclEventType: START_GUI
+// HColorUtils.generateUniqueColorPalette (num colors: 56) elapsed time: 1.3s
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// cp:P (cl:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Administrator\Desktop\lab3\1001\jiance\jiance.xpr. Version: Vivado v2015.2 
+// [GUI Memory]: 45 MB (+44274kb) [00:00:23]
+// [Engine Memory]: 352 MB (+217594kb) [00:00:23]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'E:/lab3/1001/jiance' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 402 MB. GUI used memory: 26 MB. Current time: 6/6/16 6:58:00 PM CST
+// [Engine Memory]: 402 MB (+34260kb) [00:00:27]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 50 MB (+3168kb) [00:00:30]
+// [Engine Memory]: 437 MB (+15812kb) [00:00:30]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Project name: jiance; location: C:/Users/Administrator/Desktop/lab3/1001/jiance; part: xc7vx485tffg1157-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 706.313 ; gain = 152.117 
+dismissDialog("Open Project"); // cp:P (cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, jiance (jiance.v)]", 1, true); // A:k (H:JPanel, cl:JFrame) - Node
+// [Engine Memory]: 460 MB (+699kb) [00:00:47]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, jiance (jiance.v)]", 1, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectCodeEditor("jiance.v", 293, 246); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 145, 329); // bj:J (JPanel:JComponent, cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 476 MB. GUI used memory: 33 MB. Current time: 6/6/16 6:58:25 PM CST
+selectCodeEditor("jiance.v", 148, 353); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 241, 231); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [GUI Memory]: 53 MB (+1118kb) [00:01:01]
+selectCodeEditor("jiance.v", 261, 310); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("jiance.v", 236, 187); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, jiance_tb (jiance_tb.v)]", 7, true); // A:k (H:JPanel, cl:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, jiance_tb (jiance_tb.v)]", 7, true, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click - Node
+// [GUI Memory]: 58 MB (+1899kb) [00:01:06]
+selectCodeEditor("jiance_tb.v", 173, 196); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 161, 244); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 171, 212); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 160, 145); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 178, 174); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 192, 116); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 191, 179); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:H, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// d:cp (cl:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'... 
+// [Engine Memory]: 485 MB (+1691kb) [00:01:14]
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// Tcl Message: "xvlog -m64 --relax -prj jiance_tb_vlog.prj" 
+// [GUI Memory]: 62 MB (+794kb) [00:01:27]
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/d_ff.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module d_ff 
+// TclEventType: LAUNCH_SIM_LOG
+// [GUI Memory]: 66 MB (+1236kb) [00:01:32]
+// Tcl Message: INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sources_1/new/jiance.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module jiance INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.srcs/sim_1/new/jiance_tb.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module jiance_tb INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/glbl.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 734.242 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot jiance_tb_behav 
+// Tcl Message:  ****** Webtalk v2015.2 (64-bit)   **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015   **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 18:59:27 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html. webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 62.789 ; gain = 0.020 INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 18:59:27 2016... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 734.242 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2015.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// [GUI Memory]: 70 MB (+1237kb) [00:01:55]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source jiance_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 250ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 250ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:42 . Memory (MB): peak = 742.234 ; gain = 7.992 
+// 'c' command handler elapsed time: 42 seconds
+// Elapsed time: 42 seconds
+dismissDialog("Run Simulation"); // d:cp (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 496 MB. GUI used memory: 39 MB. Current time: 6/6/16 6:59:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 90, 173); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 498 MB. GUI used memory: 47 MB. Current time: 6/6/16 6:59:34 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 78, 220); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 67, 219); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 132, 213); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 498 MB. GUI used memory: 49 MB. Current time: 6/6/16 6:59:36 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 288, 211); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 315, 201); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 283, 224); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 498 MB. GUI used memory: 49 MB. Current time: 6/6/16 6:59:37 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 321, 203); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 538, 194); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 299, 210); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 500 MB. GUI used memory: 50 MB. Current time: 6/6/16 6:59:39 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 104, 199); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 49, 179); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 33, 184); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 500 MB. GUI used memory: 39 MB. Current time: 6/6/16 6:59:42 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 80, 180); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 212, 310); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 160, 374); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 138, 486); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 139, 395); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 159, 359); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 152, 382); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 161, 371); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 156, 396); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 161, 380); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance.v", 227, 383); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, jiance (jiance.v), d_ff_1 - d_ff (d_ff.v)]", 3, false); // A:k (H:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, jiance (jiance.v), d_ff_1 - d_ff (d_ff.v)]", 3, false, false, false, false, false, true); // A:k (H:JPanel, cl:JFrame) - Double Click
+selectCodeEditor("d_ff.v", 283, 249); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 115, 192); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 122, 228); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 113, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 113, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 106, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 115, 247); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 104, 205); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 119, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 120, 246); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 118, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 123, 234); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 121, 263); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 121, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 117, 283); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 46, 268); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 116, 268); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 101, 273); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 89, 292); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 173, 309); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 162, 287); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 152, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 152, 346); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 149, 330); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 145, 292); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 145, 318); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 145, 290); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("d_ff.v", 147, 286); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("d_ff.v", 147, 286); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 170, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// [GUI Memory]: 75 MB (+1220kb) [00:02:51]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 146, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 200, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 185, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 184, 168); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 182, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 182, 184); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:H, cl:JFrame)
+// [GUI Memory]: 82 MB (+3103kb) [00:02:57]
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 80, 180); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 80, 180); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 80, 180); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// d:cp (cl:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 753.574 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot jiance_tb_behav 
+// Tcl Message:  ****** Webtalk v2015.2 (64-bit)   **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015   **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:01:05 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html. webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 62.285 ; gain = 0.020 INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:01:05 2016... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:20 . Memory (MB): peak = 753.574 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2015.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source jiance_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 250ns 
+// Tcl Message: xsim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 753.574 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 250ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:28 . Memory (MB): peak = 753.574 ; gain = 0.000 
+// 'c' command handler elapsed time: 39 seconds
+// Elapsed time: 28 seconds
+dismissDialog("Run Simulation"); // d:cp (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 508 MB. GUI used memory: 55 MB. Current time: 6/6/16 7:01:13 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 139, 203); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 508 MB. GUI used memory: 42 MB. Current time: 6/6/16 7:01:15 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 81, 212); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 42, 224); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 24, 214); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 508 MB. GUI used memory: 46 MB. Current time: 6/6/16 7:01:17 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 41, 211); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 224, 200); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 297, 200); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 508 MB. GUI used memory: 41 MB. Current time: 6/6/16 7:01:19 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 315, 191); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 291, 203); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 306, 199); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 508 MB. GUI used memory: 41 MB. Current time: 6/6/16 7:01:21 PM CST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("jiance_tb.v", 117, 232); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 202, 63); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "d_ff.v", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("d_ff.v", 95, 334); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 103, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 144, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 86, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 51, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 217, 303); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("d_ff.v", 128, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 128, 296); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 128, 302); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 129, 316); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 129, 299); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 129, 322); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 126, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 125, 314); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 122, 283); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 128, 306); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 128, 280); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 129, 317); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 126, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 125, 313); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 124, 302); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 120, 327); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 120, 302); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 104, 293); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 235, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 143, 249); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 99, 289); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 510 MB (+1058kb) [00:04:28]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("d_ff.v", 184, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:H, cl:JFrame)
+// [GUI Memory]: 86 MB (+73kb) [00:04:30]
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 306, 199); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 306, 199); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 306, 199); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// d:cp (cl:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 753.574 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot jiance_tb_behav  ****** Webtalk v2015.2 (64-bit)   **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015   **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:02:38 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html. webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 63.039 ; gain = 0.020 INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:02:38 2016... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:21 . Memory (MB): peak = 753.574 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2015.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source jiance_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 250ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 250ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:24 . Memory (MB): peak = 753.574 ; gain = 0.000 
+// 'c' command handler elapsed time: 36 seconds
+// Elapsed time: 24 seconds
+dismissDialog("Run Simulation"); // d:cp (cl:JFrame)
+// [GUI Memory]: 91 MB (+729kb) [00:05:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 51 MB. Current time: 6/6/16 7:02:45 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 449, 211); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 43 MB. Current time: 6/6/16 7:02:48 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 243, 229); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 282, 217); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 309, 200); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 42 MB. Current time: 6/6/16 7:02:49 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 287, 245); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 308, 229); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 350, 213); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 45 MB. Current time: 6/6/16 7:02:51 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 394, 212); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 304, 223); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 256, 232); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 46 MB. Current time: 6/6/16 7:02:53 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 282, 215); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 318, 209); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 269, 247); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 45 MB. Current time: 6/6/16 7:02:55 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 318, 205); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 254, 237); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 309, 210); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 515 MB. GUI used memory: 46 MB. Current time: 6/6/16 7:02:56 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 283, 235); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 299, 220); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 245, 245); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 515 MB. GUI used memory: 45 MB. Current time: 6/6/16 7:02:58 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 307, 217); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 276, 240); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 304, 220); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 515 MB. GUI used memory: 45 MB. Current time: 6/6/16 7:02:59 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 269, 238); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 307, 215); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("d_ff.v", 22, 324); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 144, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 155, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 143, 308); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 148, 269); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 136, 308); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 144, 285); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 147, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 143, 286); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 114, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 114, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 110, 175); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("d_ff.v", 175, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 154, 248); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 148, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 152, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 147, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 125, 274); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 122, 298); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 122, 324); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // w:Y (v:H, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// cp:P (cl:JFrame):  Starting Design Runs : addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 
+// Tcl Message: [Mon Jun 06 19:03:20 2016] Launched synth_1... Run output will be captured here: C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // cp:P (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 518 MB. GUI used memory: 43 MB. Current time: 6/6/16 7:03:25 PM CST
+// Elapsed time: 16 seconds
+selectCodeEditor("d_ff.v", 74, 328); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 131, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 106, 331); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 114, 320); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: RUN_COMPLETED
+// Q:ap (cl:JFrame): Synthesis Completed: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, Q:ap)
+dismissDialog("Synthesis Completed"); // Q:ap (cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:H, cl:JFrame)
+// [GUI Memory]: 96 MB (+187kb) [00:06:17]
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 307, 215); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 307, 215); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 307, 215); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_TIMING, "Run Post-Synthesis Timing Simulation"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_POST_SYNTHESIS_TIMING
+// TclEventType: FILE_SET_CHANGE
+// d:cp (cl:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation -mode post-synthesis -type timing 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7vx485tffg1157-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 44 MB. Current time: 6/6/16 7:03:55 PM CST
+// [Engine Memory]: 742 MB (+216953kb) [00:06:24]
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 902 MB. GUI used memory: 47 MB. Current time: 6/6/16 7:04:01 PM CST
+// [Engine Memory]: 904 MB (+129994kb) [00:06:28]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Xgd.load filename: C:/Xilinx/Vivado/2015.2/data/parts/xilinx/virtex7/virtex7/xc7vx485t/xc7vx485t.xgd; ZipEntry: xc7vx485t_detail.xgd elapsed time: 0.7s
+// [GUI Memory]: 104 MB (+3549kb) [00:06:29]
+// [Engine Memory]: 1,043 MB (+98376kb) [00:06:29]
+// TclEventType: DESIGN_NEW
+// Device: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2015.2 INFO: [Device 21-403] Loading part xc7vx485tffg1157-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 1278.590 ; gain = 504.070 
+// Tcl Message: INFO: [USF-XSim-29] Writing simulation netlist file for design 'synth_1'... INFO: [USF-XSim-90] write_verilog -mode timesim -nolib -sdf_anno true -force -file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/jiance_tb_time_synth.v" 
+// [Engine Memory]: 1,136 MB (+42890kb) [00:06:43]
+// Tcl Message: write_verilog: Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 1340.277 ; gain = 55.641 
+// Tcl Message: INFO: [USF-XSim-30] Writing SDF file... INFO: [USF-XSim-91] write_sdf -mode timesim -process_corner slow -force -file "C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/jiance_tb_time_synth.sdf" 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,208 MB. GUI used memory: 81 MB. Current time: 6/6/16 7:04:21 PM CST
+// [Engine Memory]: 1,275 MB (+86782kb) [00:06:48]
+// RouteApi::initDelayMediator elapsed time: 17.4s
+// [Engine Memory]: 1,566 MB (+238156kb) [00:06:52]
+// Tcl Message: write_sdf: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1752.133 ; gain = 411.855 
+// Tcl Message: INFO: [USF-XSim-34] Netlist generated:C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/jiance_tb_time_synth.v INFO: [USF-XSim-35] SDF generated:C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/jiance_tb_time_synth.sdf INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing' 
+// Tcl Message: Built simulation snapshot jiance_tb_time_synth 
+// Tcl Message:  ****** Webtalk v2015.2 (64-bit)   **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015   **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/xsim.dir/jiance_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing/xsim.dir/jiance_tb_time_synth/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:04:42 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html. webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 62.434 ; gain = 0.023 INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:04:42 2016... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 1752.133 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/synth/timing' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "jiance_tb_time_synth -key {Post-Synthesis:sim_1:Timing:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2015.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source jiance_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 250ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_time_synth' loaded. INFO: [USF-XSim-97] XSim simulation ran for 250ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:57 ; elapsed = 00:00:52 . Memory (MB): peak = 1752.133 ; gain = 977.613 
+// 'c' command handler elapsed time: 51 seconds
+// Elapsed time: 52 seconds
+dismissDialog("Run Simulation"); // d:cp (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 82 MB. Current time: 6/6/16 7:04:46 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 283, 206); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 91 MB. Current time: 6/6/16 7:04:48 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 183, 207); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 208); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 82 MB. Current time: 6/6/16 7:04:50 PM CST
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:H, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// [GUI Memory]: 113 MB (+3751kb) [00:07:20]
+selectCodeEditor("d_ff.v", 163, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 175, 220); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 104, 145); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 100, 203); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 165, 227); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 159, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 160, 247); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 162, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 115, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 138, 236); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 147, 236); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 104, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 94, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 106, 236); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 141, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 116, 289); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 114, 282); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 112, 305); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 110, 287); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 115, 270); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 108, 287); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 89, 292); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 105, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance.v", 134, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 102, 133); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 102, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 91, 51); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 91, 69); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 91, 54); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 91, 71); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 88, 51); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 85, 67); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 85, 87); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 96, 92); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 97, 106); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 98, 77); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 103, 92); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 106, 105); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 106, 81); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 106, 95); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 104, 81); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 104, 100); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 88, 69); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "jiance.v", 'c'); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "jiance.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 77, 60); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 70, 73); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 79, 73); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 78, 111); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 150, 103); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("jiance.v", 151, 102); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 129, 199); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 119 MB (+74kb) [00:08:21]
+selectCodeEditor("jiance_tb.v", 118, 201); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 114, 198); // bj:J (JPanel:JComponent, cl:JFrame)
+typeControlKey((HResource) null, "jiance_tb.v", 'v'); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 233, 188); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("jiance_tb.v", 155, 160); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jiance_tb.v", 158, 180); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 162, 163); // bj:J (JPanel:JComponent, cl:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, jiance_tb (jiance_tb.v)]", 7); // A:k (H:JPanel, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 142, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+// [GUI Memory]: 128 MB (+3478kb) [00:08:30]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, jiance_tb (jiance_tb.v), DUT - jiance (jiance.v)]", 8); // A:k (H:JPanel, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 213, 146); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 154, 136); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 132, 175); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 133, 154); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 131, 168); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 131, 144); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 129, 181); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 249, 214); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 199, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance.v", 206, 146); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 188, 152); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 174, 208); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 115, 162); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 116, 185); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 102, 212); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 110, 195); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 101, 213); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 112, 193); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 112, 231); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 164, 232); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 232, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 199, 289); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 170, 197); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 162, 168); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 162, 212); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 161, 166); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 155, 212); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 149, 152); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 146, 206); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 149, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 152, 244); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 152, 190); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 153, 213); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 165, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 174, 310); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 220, 288); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:H, cl:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 208); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 208); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 194); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 208); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 208); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 208); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+// d:cp (cl:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1752.133 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 82 MB. Current time: 6/6/16 7:06:36 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot jiance_tb_behav 
+// Tcl Message:  ****** Webtalk v2015.2 (64-bit)   **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015   **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:06:48 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html. webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 63.000 ; gain = 0.020 INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:06:48 2016... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1752.133 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2015.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source jiance_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 250ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 250ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 1752.133 ; gain = 0.000 
+// 'c' command handler elapsed time: 27 seconds
+// Elapsed time: 17 seconds
+dismissDialog("Run Simulation"); // d:cp (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 93 MB. Current time: 6/6/16 7:06:52 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 193, 213); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 84 MB. Current time: 6/6/16 7:06:54 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 301, 175); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 400, 175); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 488, 174); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 84 MB. Current time: 6/6/16 7:06:55 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 226, 210); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "d_ff.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("d_ff.v", 210, 364); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 165, 337); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 148, 398); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 191, 459); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 115, 502); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 84, 502); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 69, 473); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 68, 510); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 56, 543); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 63, 555); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 68, 472); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 53, 539); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 49, 558); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 132, 481); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("d_ff.v", 182, 542); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 76, 488); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 111, 484); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 106, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 92, 492); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 119, 432); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 78, 505); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 121, 448); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 141, 414); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 167, 488); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("d_ff.v", 161, 446); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("d_ff.v", 162, 400); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 162, 432); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 190, 368); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 179, 416); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 179, 416); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 177, 463); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 171, 396); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 167, 427); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 167, 427); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 126, 398); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance.v", 251, 467); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 107, 560); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 182, 562); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 158, 398); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 157, 335); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 117, 324); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 117, 369); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 134, 295); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 130, 358); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 138, 408); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 158, 503); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 172, 551); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 173, 551, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("jiance.v", 191, 548); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 194, 558); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 192, 538); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 200, 564); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 198, 543); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 198, 563); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 198, 544); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 205, 571); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 205, 541); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 205, 561); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 205, 535); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 206, 553); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 207, 543); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 209, 565); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 209, 546); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 201, 560); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 200, 540); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 200, 559); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 199, 543); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 199, 562); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 215, 487); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 178, 534); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 177, 517); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 176, 502); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 175, 520); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 176, 496); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 176, 508); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 218, 530); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 218, 555); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "d_ff.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "d_ff.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 5", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "d_ff.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("d_ff.v", 313, 403); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "d_ff.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance.v", 125, 365); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 130, 311); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 137, 371); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 236, 558); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 223, 528); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 219, 553); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 211, 539); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 201, 559); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 198, 541); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 199, 556); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 198, 538); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 199, 559); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 199, 533); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 203, 555); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 201, 538); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 201, 555); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 201, 541); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 201, 547); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 208, 567); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 65, 338); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 225, 366); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 136, 379); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 97, 390); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 141, 436); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 102, 444); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 141, 472); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 163, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 153, 363); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 157, 205); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 181, 200); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 114, 172); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 113, 148); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 112, 152, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("jiance_tb.v", 109, 167); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 112, 149); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 108, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 108, 156); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 104, 178); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 108, 159); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 107, 169); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 109, 177); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 152, 388); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 146, 282); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 146, 303); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 152, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 148, 292); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 158, 275); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 142, 302); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 132, 294); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 65, 288); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 144, 276); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 64, 289); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("jiance_tb.v", 141, 324); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 170, 265); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 185, 374); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 185, 292); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 189, 373); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 121, 233); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jiance_tb.v", 163, 261); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 172, 211); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 169, 277); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 168, 236, false, true, false, false, false); // bj:J (JPanel:JComponent, cl:JFrame) - Control Key
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "d_ff.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("d_ff.v", 209, 324); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 198, 392); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 198, 392); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 198, 392); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("d_ff.v", 193, 350); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:H, cl:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 213); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 213); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 213); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+// d:cp (cl:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1752.133 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot jiance_tb_behav 
+// Tcl Message:  ****** Webtalk v2015.2 (64-bit)   **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015   **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:10:36 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html. webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 63.359 ; gain = 0.063 INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:10:36 2016... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 1752.133 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2015.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source jiance_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 250ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 250ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 1752.133 ; gain = 0.000 
+// 'c' command handler elapsed time: 28 seconds
+// [GUI Memory]: 135 MB (+1052kb) [00:13:05]
+// Elapsed time: 17 seconds
+dismissDialog("Run Simulation"); // d:cp (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 106 MB. Current time: 6/6/16 7:10:40 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 207, 209); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 86 MB. Current time: 6/6/16 7:10:42 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 70, 229); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 122, 198); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 240, 198); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 86 MB. Current time: 6/6/16 7:10:44 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 131, 214); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 72, 214); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 175, 210); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 88 MB. Current time: 6/6/16 7:10:46 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 260, 210); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 144, 235); // o:a (JViewport:JComponent, cl:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("jiance.v", 260, 351); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 160, 232); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 78, 86); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("jiance.v", 91, 121); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("jiance.v", 130, 101); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 132, 155); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 122, 80); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jiance.v", 122, 87); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 127, 101); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 211, 172); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 86, 78); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 162, 143); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 107, 98); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 93, 86); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 64, 85); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 166, 141); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 162, 140, false, false, false, false, true); // bj:J (JPanel:JComponent, cl:JFrame) - Double Click
+selectCodeEditor("jiance_tb.v", 270, 195); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jiance_tb.v", 205, 168); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 218, 135); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 211, 180); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 212, 204); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 215, 136); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance_tb.v", 234, 149); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:H, cl:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 144, 235); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 144, 235); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 144, 221); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 213); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 213); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 213); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+// d:cp (cl:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 1754.707 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot jiance_tb_behav  ****** Webtalk v2015.2 (64-bit)   **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015   **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:12:08 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html. webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 62.730 ; gain = 0.250 INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:12:08 2016... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1754.707 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2015.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source jiance_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 250ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 250ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1754.707 ; gain = 0.000 
+// 'c' command handler elapsed time: 26 seconds
+// Elapsed time: 16 seconds
+dismissDialog("Run Simulation"); // d:cp (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 87 MB. Current time: 6/6/16 7:12:13 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)
+// Elapsed time: 39 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "d_ff.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("jiance.v", 177, 301); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 181, 378); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 154, 416); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 150, 460); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 157, 420); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 157, 473); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 159, 421); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 164, 473); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 118, 559); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 138, 559); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 173, 563); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 191, 563); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 204, 560); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 162, 504); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 159, 459); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 159, 433); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 151, 477); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 163, 453); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 160, 468); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 206, 554); // bj:J (JPanel:JComponent, cl:JFrame)
+// Elapsed time: 360 seconds
+selectCodeEditor("jiance.v", 646, 209); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 276, 315); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 266, 371); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 254, 300); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "d_ff.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+selectCodeEditor("d_ff.v", 276, 279); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "jiance_tb.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cl:JFrame)
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // w:Y (v:H, cl:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+selectCodeEditor("jiance.v", 186, 168); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 165, 140); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 164, 199); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 170, 224); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 170, 231); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 167, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 154, 186); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 160, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 160, 203); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 161, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 173, 254); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 162, 256); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 164, 236); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 164, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 164, 246); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 153, 199); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 147, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 149, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 151, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 151, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 151, 238); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 151, 257); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 151, 240); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 151, 262); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 154, 247); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 154, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 154, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 154, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 154, 237); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 152, 260); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 152, 241); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 152, 253); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 152, 235); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 152, 252); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 153, 236); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 153, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 156, 259); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 156, 244); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 158, 264); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 158, 248); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 158, 239); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 142, 208); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 145, 244); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 145, 231); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 158, 218); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 158, 245); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 158, 264); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 158, 243); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 158, 213); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 166, 202); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 165, 219); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 151, 255); // bj:J (JPanel:JComponent, cl:JFrame)
+selectCodeEditor("jiance.v", 168, 217); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jiance.v", 188, 154); // bj:J (JPanel:JComponent, cl:JFrame)
+selectButton(PAResourceEtoH.FileSetPanel_0_CRITICAL_WARNING, "2 critical warnings"); // i:l (CommandBar:DockableBar, cl:JFrame)
+selectCodeEditor("jiance.v", 134, 227); // bj:J (JPanel:JComponent, cl:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("jiance.v", 160, 206); // bj:J (JPanel:JComponent, cl:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // w:Y (v:H, cl:JFrame)
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ab:JMenuItem (ai:JPopupMenu, cl:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 213); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 213); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 325, 213); // o:a (JViewport:JComponent, cl:JFrame)Waveform: addNotify
+// TclEventType: FILE_SET_CHANGE
+// d:cp (cl:JFrame):  Run Simulation : addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1754.707 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'jiance_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' 
+// Tcl Message: Built simulation snapshot jiance_tb_behav  ****** Webtalk v2015.2 (64-bit)   **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015   **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015     ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.  source C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav/xsim.dir/jiance_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Jun 06 19:20:17 2016. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html. webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 62.480 ; gain = 0.316 INFO: [Common 17-206] Exiting Webtalk at Mon Jun 06 19:20:17 2016... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1754.707 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Administrator/Desktop/lab3/1001/jiance/jiance.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "jiance_tb_behav -key {Behavioral:sim_1:Functional:jiance_tb} -tclbatch {jiance_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2015.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source jiance_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 250ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'jiance_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 250ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1754.707 ; gain = 0.000 
+// 'c' command handler elapsed time: 22 seconds
+// Elapsed time: 13 seconds
+dismissDialog("Run Simulation"); // d:cp (cl:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,566 MB. GUI used memory: 114 MB. Current time: 6/6/16 7:20:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // P:a (Workspace:JPanel, cl:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // w:JideButton (CommandBar:DockableBar, cl:JFrame)

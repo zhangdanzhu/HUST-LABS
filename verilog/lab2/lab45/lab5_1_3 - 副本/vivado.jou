@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Jun 14 19:33:10 2016
+# Process ID: 916
+# Log file: C:/Users/pc/Desktop/lab45/lab5_1_3 - 副本/vivado.log
+# Journal file: C:/Users/pc/Desktop/lab45/lab5_1_3 - 副本\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/pc/Desktop/lab45/lab5_1_3 - 副本/lab5_1_3.xpr}
+launch_simulation
+source counter_rom_tb.tcl
+close_sim
+launch_simulation
+source counter_rom_tb.tcl
+close_sim
+launch_simulation
+source counter_rom_tb.tcl
+close_sim
+launch_simulation
+source counter_rom_tb.tcl
+close_sim
+launch_simulation
+source counter_rom_tb.tcl
+close_sim
+launch_simulation
+source counter_rom_tb.tcl
+close_sim
+launch_simulation
+source counter_rom_tb.tcl
+close_sim
+launch_simulation
+source counter_rom_tb.tcl
+close_sim
+launch_simulation
+source counter_rom_tb.tcl
+close_sim
+launch_simulation
+source counter_rom_tb.tcl
+close_sim
+launch_simulation
+source counter_rom_tb.tcl
+close_sim
+launch_simulation
+source counter_rom_tb.tcl
+set_property -name {xsim.simulate.runtime} -value {250ns} -objects [current_fileset -simset]
+close_sim
+launch_simulation
+source counter_rom_tb.tcl
+close_sim

@@ -1,0 +1,181 @@
+(DELAYFILE 
+(SDFVERSION "3.0" )
+(DESIGN "jiance")
+(DATE "Mon Jun 06 19:04:17 2016")
+(VENDOR "XILINX")
+(PROGRAM "Vivado")
+(VERSION "2015.2")
+(DIVIDER /)
+(TIMESCALE 1ps)
+(CELL 
+  (CELLTYPE "BUFG")
+  (INSTANCE cp_IBUF_BUFG_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (113.0:120.0:120.0) (113.0:120.0:120.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE cp_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (600.5:725.7:725.7) (600.5:725.7:725.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT2")
+  (INSTANCE d_ff_1/q_i_1__0)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I1 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I0 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT1")
+  (INSTANCE d_ff_1/q_i_2)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I0 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE d_ff_1/q_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (158.0:197.0:197.0) (158.0:197.0:197.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (146.0:183.0:183.0) (27.0:31.0:31.0))
+      (SETUPHOLD (negedge CE) (posedge C) (146.0:183.0:183.0) (27.0:31.0:31.0))
+      (SETUPHOLD (posedge D) (posedge C) (-41.0:-36.0:-36.0) (153.0:191.0:191.0))
+      (SETUPHOLD (negedge D) (posedge C) (-41.0:-36.0:-36.0) (153.0:191.0:191.0))
+      (SETUPHOLD (posedge R) (posedge C) (292.0:364.0:364.0) (15.0:18.0:18.0))
+      (SETUPHOLD (negedge R) (posedge C) (292.0:364.0:364.0) (15.0:18.0:18.0))
+    )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE d_ff_1/z_OBUF_inst_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I1 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I0 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT4")
+  (INSTANCE d_ff_2/q_i_1)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I3 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I2 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I1 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+      (IOPATH I0 O (42.0:53.0:53.0) (42.0:53.0:53.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "LUT3")
+  (INSTANCE d_ff_2/q_i_3)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I2 O (45.0:56.0:56.0) (45.0:56.0:56.0))
+      (IOPATH I1 O (52.0:65.0:65.0) (52.0:65.0:65.0))
+      (IOPATH I0 O (54.0:67.0:67.0) (54.0:67.0:67.0))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "FDRE")
+  (INSTANCE d_ff_2/q_reg)
+  (DELAY 
+    (ABSOLUTE 
+      (IOPATH C Q (158.0:197.0:197.0) (158.0:197.0:197.0))
+    )
+  )
+    (TIMINGCHECK
+      (SETUPHOLD (posedge CE) (posedge C) (146.0:183.0:183.0) (27.0:31.0:31.0))
+      (SETUPHOLD (negedge CE) (posedge C) (146.0:183.0:183.0) (27.0:31.0:31.0))
+      (SETUPHOLD (posedge D) (posedge C) (-41.0:-36.0:-36.0) (153.0:191.0:191.0))
+      (SETUPHOLD (negedge D) (posedge C) (-41.0:-36.0:-36.0) (153.0:191.0:191.0))
+      (SETUPHOLD (posedge R) (posedge C) (292.0:364.0:364.0) (15.0:18.0:18.0))
+      (SETUPHOLD (negedge R) (posedge C) (292.0:364.0:364.0) (15.0:18.0:18.0))
+    )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE reset_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (600.5:725.7:725.7) (600.5:725.7:725.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "IBUF")
+  (INSTANCE x_IBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (600.5:725.7:725.7) (600.5:725.7:725.7))
+    )
+  )
+)
+(CELL 
+  (CELLTYPE "OBUF")
+  (INSTANCE z_OBUF_inst)
+  (DELAY 
+    (PATHPULSE (50.0))
+    (ABSOLUTE 
+      (IOPATH I O (2126.5:2292.7:2292.7) (2126.5:2292.7:2292.7))
+    )
+  )
+)
+(CELL 
+    (CELLTYPE "jiance")
+    (INSTANCE )
+    (DELAY
+      (ABSOLUTE
+      (INTERCONNECT cp_IBUF_BUFG_inst/O d_ff_1/q_reg/C (612.4:655.6:655.6) (612.4:655.6:655.6))
+      (INTERCONNECT cp_IBUF_BUFG_inst/O d_ff_2/q_reg/C (612.4:655.6:655.6) (612.4:655.6:655.6))
+      (INTERCONNECT cp_IBUF_inst/O cp_IBUF_BUFG_inst/I (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT d_ff_1/q_i_1__0/O d_ff_1/q_reg/D (45.0:57.0:57.0) (45.0:57.0:57.0))
+      (INTERCONNECT d_ff_1/q_i_2/O d_ff_1/q_i_1__0/I0 (294.5:310.0:310.0) (294.5:310.0:310.0))
+      (INTERCONNECT d_ff_1/q_i_2/O d_ff_1/q_i_2/I0 (323.0:340.0:340.0) (323.0:340.0:340.0))
+      (INTERCONNECT d_ff_1/q_reg/Q d_ff_2/q_i_3/I1 (413.5:450.0:450.0) (413.5:450.0:450.0))
+      (INTERCONNECT d_ff_1/q_reg/Q d_ff_2/q_i_1/I2 (413.5:450.0:450.0) (413.5:450.0:450.0))
+      (INTERCONNECT d_ff_1/q_reg/Q d_ff_1/z_OBUF_inst_i_1/I0 (594.9:641.0:641.0) (594.9:641.0:641.0))
+      (INTERCONNECT d_ff_1/z_OBUF_inst_i_1/O z_OBUF_inst/I (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT d_ff_2/q_i_1/O d_ff_2/q_reg/D (45.0:57.0:57.0) (45.0:57.0:57.0))
+      (INTERCONNECT d_ff_2/q_i_3/O d_ff_1/q_i_1__0/I0 (294.5:310.0:310.0) (294.5:310.0:310.0))
+      (INTERCONNECT d_ff_2/q_i_3/O d_ff_1/q_i_2/I0 (323.0:340.0:340.0) (323.0:340.0:340.0))
+      (INTERCONNECT d_ff_2/q_reg/Q d_ff_1/z_OBUF_inst_i_1/I1 (413.5:450.0:450.0) (413.5:450.0:450.0))
+      (INTERCONNECT d_ff_2/q_reg/Q d_ff_2/q_i_3/I0 (594.9:641.0:641.0) (594.9:641.0:641.0))
+      (INTERCONNECT d_ff_2/q_reg/Q d_ff_2/q_i_1/I1 (594.9:641.0:641.0) (594.9:641.0:641.0))
+      (INTERCONNECT reset_IBUF_inst/O d_ff_1/q_i_1__0/I1 (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT reset_IBUF_inst/O d_ff_2/q_i_1/I3 (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT x_IBUF_inst/O d_ff_1/z_OBUF_inst_i_1/I2 (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT x_IBUF_inst/O d_ff_2/q_i_1/I0 (554.4:583.6:583.6) (554.4:583.6:583.6))
+      (INTERCONNECT x_IBUF_inst/O d_ff_2/q_i_3/I2 (554.4:583.6:583.6) (554.4:583.6:583.6))
+      )
+    )
+)
+)
