@@ -1,7 +1,0 @@
-Running: xsim.dir/two_2_bit_multiplier_tb_func_synth/xsimk.exe -simmode gui -wdb two_2_bit_multiplier_tb_func_synth.wdb -simrunnum 0 -socket 3576
-Design successfully loaded
-Design Loading Memory Usage: 18568 KB (Peak: 18568 KB)
-Design Loading CPU Usage: 46 ms
-Simulation completed
-Simulation Memory Usage: 19016 KB (Peak: 19016 KB)
-Simulation CPU Usage: 46 ms

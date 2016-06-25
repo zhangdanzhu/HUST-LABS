@@ -1,7 +1,0 @@
-Running: xsim.dir/D_latch_dataflow_tb_behav/xsimk.exe -simmode gui -wdb D_latch_dataflow_tb_behav.wdb -simrunnum 0 -socket 4447
-Design successfully loaded
-Design Loading Memory Usage: 20120 KB (Peak: 20120 KB)
-Design Loading CPU Usage: 124 ms
-Simulation completed
-Simulation Memory Usage: 20520 KB (Peak: 20520 KB)
-Simulation CPU Usage: 124 ms

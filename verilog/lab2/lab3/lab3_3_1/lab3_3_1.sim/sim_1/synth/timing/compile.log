@@ -1,8 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/lab3_3_1/lab3_3_1.sim/sim_1/synth/timing/two_2_bit_comparator_tb_time_synth.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module two_2_bit_comparator
-INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/lab3_3_1/lab3_3_1.srcs/sim_1/new/two_2_bit_comparator_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module two_2_bit_comparator_tb
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Administrator/Desktop/lab3/lab3_3_1/lab3_3_1.sim/sim_1/synth/timing/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
-WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [C:/Users/Administrator/Desktop/lab3/lab3_3_1/lab3_3_1.sim/sim_1/synth/timing/glbl.v:6]

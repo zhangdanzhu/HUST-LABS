@@ -1,8 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pc/Desktop/lab3/lab5_2_5/lab5_2_5.sim/sim_1/synth/timing/T_ff_enable_behavior_tb_time_synth.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module T_ff_enable_behavior
-INFO: [VRFC 10-311] analyzing module glbl
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pc/Desktop/lab3/lab5_2_5/lab5_2_5.srcs/sim_1/new/T_ff_enable_behavior_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module T_ff_enable_behavior_tb
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/pc/Desktop/lab3/lab5_2_5/lab5_2_5.sim/sim_1/synth/timing/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
-WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [C:/Users/pc/Desktop/lab3/lab5_2_5/lab5_2_5.sim/sim_1/synth/timing/glbl.v:6]
